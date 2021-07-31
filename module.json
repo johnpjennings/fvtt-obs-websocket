@@ -1,0 +1,8 @@
+{
+  "name": "fvtt-obs-websocket",
+  "title": "fvtt-obs-websocket - Experimentation",
+  "description": "A dangerous and untested module. Do not install.",
+  "author": "John Jennings",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.7.9"
+}
