@@ -5,5 +5,6 @@
   "author": "John Jennings",
   "version": "1.0.0",
   "minimumCoreVersion": "0.7.9",
+  "url":"https://github.com/johnpjennings/fvtt-obs-websocket",
   "manifest": "https://raw.githubusercontent.com/johnpjennings/fvtt-obs-websocket/main/module.json"
 }
