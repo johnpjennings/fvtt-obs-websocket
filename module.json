@@ -4,6 +4,6 @@
   "description": "A dangerous and untested module. Do not install.",
   "author": "John Jennings",
   "version": "1.0.0",
-  "minimumCoreVersion": "0.7.9"
+  "minimumCoreVersion": "0.7.9",
   "manifest": "https://raw.githubusercontent.com/johnpjennings/fvtt-obs-websocket/main/module.json"
 }
