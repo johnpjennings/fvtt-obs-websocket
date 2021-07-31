@@ -3,13 +3,16 @@ const tmi = require('tmi.js');
 const client = new tmi.Client({
 	options: { debug: true },
 	identity: {
-		username: 'my_bot_name',
-		password: 'oauth:my_bot_token'
+		username: 'DoubleCritDiceBot',
+		password: 'oauth:p38lxekj93ax7x0otl6cmyhn0c1m94'
 	},
-	channels: [ 'my_name' ]
+	channels: [ 'double_crit_fail' ]
 });
 
 client.connect();
+
+
+  
 
 client.on('message', (channel, tags, message, self) => {
 	// Ignore echoed messages.
@@ -20,3 +23,5 @@ client.on('message', (channel, tags, message, self) => {
 		client.say(channel, `@${tags.username}, heya!`);
 	}
 });
+
+console.log('fvtt-obs-websocket checking in')
