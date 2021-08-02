@@ -5,11 +5,9 @@
   "author": "John Jennings",
   "version": "1.0.0",
   "scripts": [
-    "scripts/roller.js"
-  ],
-  "esmodules": [
     "/scripts/tmi.js",
-    "/scripts/bot.js"
+    "/scripts/bot.js",
+    "/scripts/require.js"
   ],
   "minimumCoreVersion": "0.7.9",
   "url":"https://github.com/johnpjennings/fvtt-obs-websocket",
