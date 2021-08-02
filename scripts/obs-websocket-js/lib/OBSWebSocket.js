@@ -2,17 +2,13 @@ const Socket = require('./Socket');
 const Status = require('./Status');
 const debug = require('debug')('obs-websocket-js:Core');
 
-/*import Socket from './Socket';
-import Status from ('./Status');
-import debug from ('obs-websocket-js:Core');*/
-
 let requestCounter = 0;
 
 function generateMessageId() {
   return String(requestCounter++);
 }
 
-export class OBSWebSocket extends Socket {
+class OBSWebSocket extends Socket {
   /**
    * Generic Socket request method. Returns a promise.
    * Generates a messageId internally and will override any passed in the args.
@@ -93,3 +89,5 @@ export class OBSWebSocket extends Socket {
     });
   }
 }
+
+module.exports = OBSWebSocket;
