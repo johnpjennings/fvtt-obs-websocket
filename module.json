@@ -4,10 +4,12 @@
   "description": "A dangerous and untested module. Do not install.",
   "author": "John Jennings",
   "version": "1.0.0",
-  "scripts": [
+  "esmodules": [
     "/scripts/tmi.js",
-    "/scripts/bot.js",
     "/scripts/obs-websocket.js"
+  ],
+  "scripts": [
+    "/scripts/bot.js"
   ],
   "minimumCoreVersion": "0.7.9",
   "url":"https://github.com/johnpjennings/fvtt-obs-websocket",
