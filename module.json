@@ -6,9 +6,7 @@
   "version": "1.0.0",
   "esmodules": [
     "/scripts/tmi.js",
-    "/scripts/obs-websocket.js"
-  ],
-  "scripts": [
+    "/scripts/obs-websocket.js",
     "/scripts/bot.js"
   ],
   "minimumCoreVersion": "0.7.9",
