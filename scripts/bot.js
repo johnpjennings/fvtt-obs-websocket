@@ -1,10 +1,8 @@
-const tmi = require('tmi.js');
-
 const client = new tmi.Client({
 	options: { debug: true },
 	identity: {
-		username: 'DoubleCritDiceBot',
-		password: 'oauth:p38lxekj93ax7x0otl6cmyhn0c1m94'
+		username: 'name',
+		password: 'pass'
 	},
 	channels: [ 'double_crit_fail' ]
 });
