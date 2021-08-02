@@ -7,7 +7,6 @@
   "scripts": [
     "/scripts/tmi.js",
     "/scripts/bot.js",
-    "/scripts/require.js",
     "/scripts/obs-websocket-js/lib/OBSWebSocket.js"
   ],
   "minimumCoreVersion": "0.7.9",
